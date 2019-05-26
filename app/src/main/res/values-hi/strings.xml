@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेरा पहला Kotlin अनुप्रयोग</string>
+    <string name="show_toast">टोस्ट दिखाओ</string>
+    <string name="enter_your_message">अपना संदेश दर्ज करें</string>
+    <string name="send_data_to_next_activity">अगली गतिविधि के लिए डेटा भेजें</string>
+    <string name="share_to_other_apps">अन्य एप्लिकेशन को साझा करें</string>
+    <string name="recycler_view_demo">रिसाइकलर डेमो देखें</string>
+    <string name="btn_was_clicked">बटन पर क्लिक किया गया</string>
+    <string name="textview">TextView</string>
+    <string name="title_listitem">Title</string>
+</resources>

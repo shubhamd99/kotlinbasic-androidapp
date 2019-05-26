@@ -5,12 +5,12 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
+        tools:context=".activities.MainActivity"
         android:padding="10dp">
 
 
     <Button
-            android:text="Show Toast"
+            android:text="@string/show_toast"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonShow"
@@ -21,7 +21,7 @@
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your message"
+            android:hint="@string/enter_your_message"
             android:ems="10"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
@@ -29,20 +29,29 @@
             android:layout_marginTop="165dp"
     />
     <Button
-            android:text="Send data To Next Activity"
+            android:text="@string/send_data_to_next_activity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnSndMsg"
             android:layout_centerInParent="true"
     />
     <Button
-            android:text="Share to Other Apps"
+            android:text="@string/share_to_other_apps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnShareMsg"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="167dp"
+    />
+    <Button
+            android:text="@string/recycler_view_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnRecycleViewDemo"
+            android:layout_marginBottom="46dp"
     />
 
 </RelativeLayout>
